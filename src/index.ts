@@ -1,0 +1,1 @@
+import type { editor } from "@blackberryeditor/blackberry-core"

@@ -2,10 +2,10 @@
   "name": "core",
   "version": "0.0.1",
   "description": "Core game-agnostic content that ships with Blackberry.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node src/index.ts",
-    "build": "tsc src/index.ts"
+    "build": "tsc src/index.ts",
+    "dev": "npm run build && node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@blackberryeditor/blackberry-core": "^0.0.1"
+    "@blackberryeditor/blackberry-core": "^0.0.2"
   }
 }

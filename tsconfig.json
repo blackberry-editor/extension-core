@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "outDir": "build",
+        "rootDir": "src"
+    },
+    "excludes": [ "node_modules", "build" ]
+}
