@@ -1,6 +1,6 @@
 {
   "name": "@blackberryeditor/extension-core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Core game-agnostic content that ships with Blackberry.",
   "scripts": {
     "build": "tsc",
