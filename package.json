@@ -21,6 +21,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@blackberryeditor/blackberry-core": "^0.0.2"
+    "@blackberryeditor/core": "^0.0.3"
   }
 }
