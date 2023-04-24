@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
+        "lib": [ "dom", "es2015" ],
         "noImplicitAny": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
-        "outDir": "build",
+        "outDir": "dist",
         "rootDir": "src"
     },
-    "excludes": [ "node_modules", "build" ]
+    "include": [ "src/**/*.ts" ]
 }

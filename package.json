@@ -1,26 +1,25 @@
 {
-  "name": "core",
+  "name": "@blackberryeditor/extension-core",
   "version": "0.0.1",
   "description": "Core game-agnostic content that ships with Blackberry.",
-  "type": "module",
   "scripts": {
-    "build": "tsc src/index.ts",
-    "dev": "npm run build && node build/index.js"
+    "build": "tsc",
+    "dev": "npm run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackberryeditor/core.git"
+    "url": "git+https://github.com/blackberryeditor/extension-core.git"
   },
   "author": "frqstbite",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blackberryeditor/core/issues"
+    "url": "https://github.com/blackberryeditor/extension-core/issues"
   },
-  "homepage": "https://github.com/blackberryeditor/core#readme",
+  "homepage": "https://github.com/blackberryeditor/extension-core#readme",
   "devDependencies": {
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@blackberryeditor/core": "^0.0.3"
+    "@blackberryeditor/core": "^0.0.5"
   }
 }
